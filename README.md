@@ -114,6 +114,37 @@ Each entity has its own fields and connects with others to form relationships.
 ✨ This design ensures a clear and scalable structure where users, properties, bookings, payments, and reviews are connected just like in the real Airbnb platform.
 
 
+
+
+
+## ✨ Feature Breakdown  
+
+Our Airbnb Clone comes packed with essential features that bring the full rental experience to life. Each feature plays a unique role in ensuring smooth interactions between users, property owners, and the platform.  
+
+### 👤 User Management  
+Users can sign up, log in, and manage their profiles. This feature ensures secure authentication and allows users to update personal details, view their bookings, and manage account settings.  
+
+### 🏡 Property Management  
+Hosts can list new properties with details like photos, descriptions, pricing, and availability. This feature empowers hosts to showcase their spaces and gives users a variety of choices when searching for accommodations.  
+
+### 📅 Booking System  
+Guests can search, select, and book available properties based on dates and preferences. The system ensures availability checks, prevents double bookings, and provides smooth reservation handling.  
+
+### 💳 Payment Integration  
+A secure payment gateway is integrated to handle transactions between guests and hosts. This feature ensures safe and reliable payments, giving both sides confidence in the process.  
+
+### ⭐ Reviews & Ratings  
+Guests can leave reviews and ratings after their stay. This feature builds trust in the community, helps future guests make informed choices, and gives hosts feedback for improvement.  
+
+### 🔍 Search & Filters  
+Users can search for properties by location, price, availability, and amenities. This makes it easy for guests to find exactly what they’re looking for without endless scrolling.  
+
+### 📱 Responsive Design  
+The platform is built to work seamlessly across devices (desktop, tablet, mobile). This ensures users can book or manage properties anytime, anywhere.  
+
+
+
+
 ## 📌 About this Project  
 - 🌍 Goal: Recreate Airbnb’s booking experience with a collaborative team approach  
 - 🛠️ Tech stack: Python, Flask/Django (backend), React/HTML/CSS (frontend), PostgreSQL/MySQL (database)  
