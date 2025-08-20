@@ -144,6 +144,43 @@ The platform is built to work seamlessly across devices (desktop, tablet, mobile
 
 
 
+## 🔒 API Security  
+
+Securing our APIs is a top priority to protect user data, ensure safe transactions, and maintain trust. The following security measures will be implemented:  
+
+### 🔑 Authentication  
+Only registered users can access protected endpoints through **JWT (JSON Web Tokens)**.  
+👉 Ensures that only verified users can log in, book properties, or make payments.  
+
+### 🛂 Authorization  
+Different user roles (e.g., **Guest, Host, Admin**) will have controlled access.  
+👉 Prevents unauthorized actions, such as a guest trying to modify another host’s property listing.  
+
+### ⏱️ Rate Limiting  
+APIs will restrict the number of requests per user within a time window.  
+👉 Protects against **brute-force attacks** and ensures system stability.  
+
+### 🧑‍💻 Input Validation & Sanitization  
+All inputs will be validated and sanitized before processing.  
+👉 Prevents common vulnerabilities like **SQL injection** and **XSS attacks**.  
+
+### 🔐 Secure Payments  
+All financial transactions will use **encrypted channels (HTTPS + TLS)** and third-party secure gateways.  
+👉 Guarantees that sensitive payment details remain safe.  
+
+### 🛡️ Data Privacy & Encryption  
+Sensitive user data (like passwords) will be hashed, and communications will always occur over **HTTPS**.  
+👉 Protects personal information from leaks or unauthorized access.  
+
+---
+
+✨ **Why this matters:**  
+- **Protecting user data** → Safeguards personal and financial details.  
+- **Securing payments** → Builds trust and confidence between hosts and guests.  
+- **System integrity** → Prevents downtime and ensures fair use of resources.  
+- **Community trust** → A secure platform keeps users returning.  
+
+
 
 ## 📌 About this Project  
 - 🌍 Goal: Recreate Airbnb’s booking experience with a collaborative team approach  
