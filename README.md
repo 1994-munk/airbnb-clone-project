@@ -212,4 +212,4 @@ CI/CD is like our **project’s autopilot** 🛩️ → code goes in, tests run 
 💡 Want to Contribute?  
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.  
 
-✨ *Made with teamwork, coffee ☕, and just a little bit of chaos 🤪
+✨ “Built with teamwork, code, and just enough chaos to keep the bookings flowing 🏡📅”
