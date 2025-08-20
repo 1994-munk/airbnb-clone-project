@@ -15,7 +15,7 @@ The Airbnb Clone Project is designed to help us **learn, collaborate, and build*
 - 🚀 **Deployment Skills** → Learn how to containerize and deploy applications on the cloud.  
 
 ---
-## 🛠️ Tech Stack  
+## 🛠️ Technology Stack  
 
 This Airbnb Clone is powered by a modern stack of tools and technologies:  
 
