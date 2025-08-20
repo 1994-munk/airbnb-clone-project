@@ -182,6 +182,28 @@ Sensitive user data (like passwords) will be hashed, and communications will alw
 
 
 
+## ⚙️ CI/CD Pipeline  
+
+A **CI/CD pipeline (Continuous Integration / Continuous Deployment)** automates the process of building, testing, and deploying our Airbnb Clone project. This ensures faster development cycles, fewer bugs, and smooth delivery of new features.  
+
+### 🔄 Why it’s Important  
+- ✅ **Continuous Integration (CI):** Automatically runs tests whenever new code is pushed. This helps catch bugs early and keeps the main branch stable.  
+- 🚀 **Continuous Deployment (CD):** Automates the release process so that updates can quickly and safely reach production.  
+- 🛠️ **Consistency & Reliability:** Reduces human error and guarantees that every release follows the same tested process.  
+
+### 🧰 Tools We’ll Use  
+- **GitHub Actions** → Automate builds, tests, and deployments directly from our repo.  
+- **Docker** → Containerize the app for consistent environments across development and production.  
+- **Jest / Mocha (Testing Frameworks)** → Run automated tests before merging new code.  
+- **Heroku / AWS / Vercel** → Deploy the app seamlessly with CI/CD workflows.  
+
+---
+
+✨ **In short:**  
+CI/CD is like our **project’s autopilot** 🛩️ → code goes in, tests run automatically, and if everything passes, a fresh version of the app is deployed without hassle.  
+
+
+
 ## 📌 About this Project  
 - 🌍 Goal: Recreate Airbnb’s booking experience with a collaborative team approach  
 - 🛠️ Tech stack: Python, Flask/Django (backend), React/HTML/CSS (frontend), PostgreSQL/MySQL (database)  
