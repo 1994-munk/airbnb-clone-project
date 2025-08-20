@@ -58,6 +58,23 @@ Here’s who does what in our team:
 | 🔐 **Security Specialist** | Implements authentication, authorization, and data protection. Monitors for vulnerabilities. |
 
 
+
+
+## 📊 Database Design (ERD)
+
+```mermaid
+erDiagram
+    USERS ||--o{ PROPERTIES : owns
+    USERS ||--o{ BOOKINGS : makes
+    USERS ||--o{ REVIEWS : writes
+    
+    PROPERTIES ||--o{ BOOKINGS : has
+    PROPERTIES ||--o{ REVIEWS : receives
+    
+    BOOKINGS ||--o{ PAYMENTS : includes
+
+
+
 ## 📌 About this Project  
 - 🌍 Goal: Recreate Airbnb’s booking experience with a collaborative team approach  
 - 🛠️ Tech stack: Python, Flask/Django (backend), React/HTML/CSS (frontend), PostgreSQL/MySQL (database)  
