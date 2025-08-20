@@ -60,19 +60,58 @@ Here’s who does what in our team:
 
 
 
-## 📊 Database Design (ERD)
+## 📊 Database Design
 
-```mermaid
-erDiagram
-    USERS ||--o{ PROPERTIES : owns
-    USERS ||--o{ BOOKINGS : makes
-    USERS ||--o{ REVIEWS : writes
-    
-    PROPERTIES ||--o{ BOOKINGS : has
-    PROPERTIES ||--o{ REVIEWS : receives
-    
-    BOOKINGS ||--o{ PAYMENTS : includes
+Our database is structured around 5 key entities that mirror real-world Airbnb functionality.  
+Each entity has its own fields and connects with others to form relationships.  
 
+---
+
+### 👤 Users
+- **Fields**: `id`, `name`, `email`, `password`, `role`
+- **Relationships**:
+  - A user can **list multiple properties** 🏠
+  - A user can **make multiple bookings** 📅
+  - A user can **write reviews** ✍️
+
+---
+
+### 🏠 Properties
+- **Fields**: `id`, `title`, `description`, `location`, `price_per_night`
+- **Relationships**:
+  - A property belongs to **one user** (the host) 👤
+  - A property can have **many bookings** 📅
+  - A property can receive **many reviews** ⭐
+
+---
+
+### 📅 Bookings
+- **Fields**: `id`, `user_id`, `property_id`, `start_date`, `end_date`
+- **Relationships**:
+  - A booking belongs to **one user** 👤
+  - A booking is for **one property** 🏠
+  - A booking is tied to **one payment** 💳
+
+---
+
+### 💳 Payments
+- **Fields**: `id`, `booking_id`, `amount`, `status`, `payment_date`
+- **Relationships**:
+  - A payment is linked to **one booking** 📅
+  - Each booking has **one payment record**  
+
+---
+
+### ⭐ Reviews
+- **Fields**: `id`, `user_id`, `property_id`, `rating`, `comment`
+- **Relationships**:
+  - A review belongs to **one user** 👤
+  - A review belongs to **one property** 🏠
+  - A property can have **many reviews** ⭐⭐⭐
+
+---
+
+✨ This design ensures a clear and scalable structure where users, properties, bookings, payments, and reviews are connected just like in the real Airbnb platform.
 
 
 ## 📌 About this Project  
