@@ -39,4 +39,19 @@ Bookings → /bookings/
 
 Payments → /payments/
 
+## 👥 Team Roles  
+
+Here’s who does what in our team:  
+
+| Role | Responsibilities |
+|------|------------------|
+| 👨‍💻 **Backend Developer** | Builds & maintains the server-side logic. Creates secure, efficient, and well-documented APIs. |
+| 🗄️ **Database Administrator (DBA)** | Designs, manages, and optimizes the database. Ensures data integrity and performance. |
+| 🎨 **Frontend Developer** | Crafts the user-facing side of the app. Turns backend APIs into a smooth, intuitive experience. |
+| 🚀 **DevOps Engineer** | Sets up CI/CD pipelines, manages deployments, and ensures scalability with tools like Docker. |
+| 🔐 **Security Specialist** | Implements authentication, authorization, and data protection. Monitors for vulnerabilities. |
+
+
+
+
 Reviews → /reviews/
